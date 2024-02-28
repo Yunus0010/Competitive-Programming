@@ -13,7 +13,3 @@ def freqAlphabets(s):
         result = alphabet[num - 1] + result
     
     return result
-
-# Test
-s = "10#11#12"
-print(freqAlphabets(s))  # Output: "jkab"
